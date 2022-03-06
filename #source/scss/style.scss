@@ -1,6 +1,80 @@
-@import "dafult.scss";
+@import "default.scss";
 
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 200%;
+    color: rgb(251,239,238);
+    background: url('../../img/bg/leaves.jpg');
+}
+
+.mainblock{
+    background: rgb(251,91,99);
+    box-shadow: inset 0 0 5px black;
+    border-radius: 0 0 15px 15px;
+    font-size: 80%;
+    padding: 20px;
+    &-logo{
+        text-align: center;
+    }
+    &-title{
+        text-align: center;
+    }
+    &-subtitle{
+        text-align: center;
+    }
+}
+
+.menu{
+    background: rgb(251,91,99);
+    box-shadow: inset 0 0 5px black;
+    border-radius: 15px;
+    font-size: 80%;
+    padding: 20px;
+    margin: 10% 25% 0 25%;
+    &-title{
+        text-align: center;
+    }
+    &-subtitle{
+        text-align: center;
+    }
+    &-description{}
+    &-image{
+        border-radius: 5px;
+        width: 40%;
+        height: 40%;
+        margin: 3% 0 0 0;
+        align-self: right;
+    }
+    &-username{
+        border: 1px solid black;
+        border-radius: 3px;
+        padding: 10px;
+        margin: 3% 0 0 0;
+        text-align: left;
+    }
+    &-password{
+        border: 1px solid black;
+        border-radius: 3px;
+        padding: 10px;
+        margin: 3% 0 0 0;
+        text-align: left;
+    }
+    &-send{
+        text-align: center;
+        margin: 5% 0 0 0;
+        &-button{
+            box-shadow: 0 0 5px black;
+            transition: all 0.8s ease 0s;
+            background: rgb(251,50,65);
+            border-radius: 5px;
+            padding: 10px;
+            &:hover{
+                box-shadow: 0 0 15px black;
+                transition: all 0.8s ease 0s;
+            }
+        }
+        &-button-text{
+            color: rgb(251,239,238);
+        }
+    }
 }
